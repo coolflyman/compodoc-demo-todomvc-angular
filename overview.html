@@ -1,0 +1,1304 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>TodoMVC Angular documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+	    <link rel="stylesheet" href="./styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="./" class="navbar-brand">TodoMVC Angular documentation</a>
+            <button type="button" class="btn btn-default btn-menu fa fa-bars" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+            <div id="book-search-input" role="search">
+                <input type="text" placeholder="Type to search">
+            </div>
+            <nav>
+            
+                <ul class="list">
+            
+                    <li class="title">
+                        <a href="./index.html">TodoMVC Angular documentation</a>
+                    </li>
+            
+                    <li class="divider"></li>
+            
+            
+                    <li class="chapter">
+                        <a data-type="chapter-link" href="./index.html"><span class="fa fa-home"></span>Getting started</a>
+                        <ul class="links">
+                                <li class="link">
+                                    <a 
+                                         href="./overview.html" 
+                                        
+                                         href="./overview.html" 
+                                         class="active" >
+                                        <span class="fa fa-fw fa-th"></span>Overview
+                                    </a>
+                                </li>
+                                <li class="link">
+                                  <a href="./index.html" ><span class="fa fa-file-text-o"></span>README</a>
+                                </li>
+                                <li class="link">
+                                        <a href="./license.html"
+                                    >
+                                        <span class="fa fa-fw fa-file-text-o"></span>LICENSE
+                                    </a>
+                                </li>
+                                <li class="link">
+                                    <a href="./dependencies.html"
+                                        
+                                        >
+                                        <span class="fa fa-fw fa-list"></span>Dependencies
+                                    </a>
+                                </li>
+                        </ul>
+                    </li>
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-additional-pages"
+                            >
+                            <span class="fa fa-fw fa-book"></span>
+                            <span>Additional documentation</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-additional-pages"
+                            >
+                                <li class="link ">
+                                    <a href="./additional-documentation/introduction.html" >Introduction</a>
+                                </li>
+                                <li class="link ">
+                                    <a href="./additional-documentation/actions.html" >Actions</a>
+                                </li>
+                                <li class="link for-chapter2">
+                                    <a href="./additional-documentation/actions/creation-of-a-todo.html" >Creation of a todo</a>
+                                </li>
+                                <li class="link for-chapter2">
+                                    <a href="./additional-documentation/actions/edition-of-a-todo.html" >Edition of a todo</a>
+                                </li>
+                                <li class="link for-chapter2">
+                                    <a href="./additional-documentation/actions/delete-a-todo.html" >Delete a todo</a>
+                                </li>
+                                <li class="link for-chapter2">
+                                    <a href="./additional-documentation/actions/update-the-status-of-a-todo.html" >Update the status of a todo</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+                    <li class="chapter">
+                        <a data-type="chapter-link" href="./modules.html" >
+                            <div class="menu-toggler linked" data-toggle="collapse"
+                                    data-target="#xs-modules-links"
+                            >
+                                <span class="fa fa-fw fa-archive"></span>
+                                <span class="link-name">Modules</span>
+                                <span class="fa fa-angle-down"></span>
+                            </div>
+                        </a>
+                        <ul class="links collapse "
+                                id="xs-modules-links"
+                            >
+                                <li class="link">
+                                    <a href="./modules/AboutModule.html" >AboutModule</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./modules/AboutRoutingModule.html" >AboutRoutingModule</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./modules/AppModule.html" >AppModule</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./modules/AppRoutingModule.html" >AppRoutingModule</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./modules/FooterModule.html" >FooterModule</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./modules/HeaderModule.html" >HeaderModule</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./modules/HomeModule.html" >HomeModule</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./modules/HomeRoutingModule.html" >HomeRoutingModule</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./modules/ListModule.html" >ListModule</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./modules/TodoModule.html" >TodoModule</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-components-links"
+                            >
+                            <span class="fa fa-fw fa-cogs"></span>
+                            <span>Components</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-components-links"
+                            >
+                                <li class="link">
+                                    <a href="./components/AboutComponent.html" >AboutComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/AppComponent.html" >AppComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/CompodocComponent.html" >CompodocComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/FooterComponent.html" >FooterComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/HeaderComponent.html" >HeaderComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/HomeComponent.html" >HomeComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/ListComponent.html" >ListComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/TodoComponent.html" >TodoComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./components/TodoMVCComponent.html" >TodoMVCComponent</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-directives-links"
+                            >
+                            <span class="fa fa-fw fa-code"></span>
+                            <span>Directives</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-directives-links"
+                            >
+                                <li class="link">
+                                    <a href="./directives/DoNothingDirective.html" >DoNothingDirective</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-classes-links"
+                            >
+                            <span class="fa fa-fw fa-file-code-o"></span>
+                            <span>Classes</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-classes-links"
+                            >
+                                <li class="link">
+                                    <a href="./classes/StringIndexedItems.html" >StringIndexedItems</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./classes/Todo.html" >Todo</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-injectables-links"
+                            >
+                            <span class="fa fa-fw fa-long-arrow-down"></span>
+                            <span>Injectables</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-injectables-links"
+                            >
+                                <li class="link">
+                                    <a href="./injectables/EmitterService.html" >EmitterService</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./injectables/TodoStore.html" >TodoStore</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-interceptors-links"
+                            >
+                            <span class="fa fa-fw fa-exchange"></span>
+                            <span>Interceptors</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-interceptors-links"
+                            >
+                                <li class="link">
+                                    <a href="./interceptors/NoopInterceptor.html" >NoopInterceptor</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-interfaces-links"
+                            >
+                            <span class="fa fa-fw fa-info"></span>
+                            <span>Interfaces</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-interfaces-links"
+                            >
+                                <li class="link">
+                                    <a href="./interfaces/ClockInterface.html" >ClockInterface</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./interfaces/InterfaceWithIndexable.html" >InterfaceWithIndexable</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./interfaces/LabelledTodo.html" >LabelledTodo</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./interfaces/SearchFunc.html" >SearchFunc</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./interfaces/StringArray.html" >StringArray</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./interfaces/TimeInterface.html" >TimeInterface</a>
+                                </li>
+                                <li class="link">
+                                    <a href="./interfaces/superString.html" >superString</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-pipes-links"
+                            >
+                            <span class="fa fa-fw fa-plus"></span>
+                            <span>Pipes</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-pipes-links"
+                            >
+                                <li class="link">
+                                    <a href="./pipes/FirstUpperPipe.html" >FirstUpperPipe</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-miscellaneous-links"
+                            >
+                            <span class="fa fa-fw fa-cubes"></span>
+                            <span>Miscellaneous</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-miscellaneous-links"
+                            >
+                                <li class="link">
+                                  <a href="./miscellaneous/enumerations.html" data-type="entity-link" >Enums</a>
+                                </li>
+                                <li class="link">
+                                  <a href="./miscellaneous/functions.html" data-type="entity-link" >Functions</a>
+                                </li>
+                                <li class="link">
+                                  <a href="./miscellaneous/typealiases.html" data-type="entity-link" >Type aliases</a>
+                                </li>
+                                <li class="link">
+                                  <a href="./miscellaneous/variables.html" data-type="entity-link" >Variables</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+                    <li class="chapter">
+                        <a data-type="chapter-link" href="./routes.html" ><span class="fa fa-fw fa-code-fork"></span>Routes</a>
+                    </li>
+            
+                    <li class="chapter">
+                        <a data-type="chapter-link" href="./coverage.html" ><span class="fa fa-fw fa-tasks"></span>Documentation coverage</a>
+                    </li>
+            
+                    <li class="divider"></li>
+                    <li class="copyright">
+                            Documentation generated using <a href="https://compodoc.github.io/website/" target="_blank">
+                                        <img src="./images/compodoc-vectorise.svg" class="img-responsive">
+                            </a>
+                    </li>
+            
+                </ul>
+            
+            </nav>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <nav>
+                   
+                       <ul class="list">
+                   
+                           <li class="title">
+                               <a href="./index.html">TodoMVC Angular documentation</a>
+                           </li>
+                   
+                           <li class="divider"></li>
+                   
+                               <div id="book-search-input" role="search">
+                                   <input type="text" placeholder="Type to search">
+                               </div>
+                   
+                           <li class="chapter">
+                               <a data-type="chapter-link" href="./index.html"><span class="fa fa-home"></span>Getting started</a>
+                               <ul class="links">
+                                       <li class="link">
+                                           <a 
+                                                href="./overview.html" 
+                                               
+                                                href="./overview.html" 
+                                                class="active" >
+                                               <span class="fa fa-fw fa-th"></span>Overview
+                                           </a>
+                                       </li>
+                                       <li class="link">
+                                         <a href="./index.html" ><span class="fa fa-file-text-o"></span>README</a>
+                                       </li>
+                                       <li class="link">
+                                               <a href="./license.html"
+                                           >
+                                               <span class="fa fa-fw fa-file-text-o"></span>LICENSE
+                                           </a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./dependencies.html"
+                                               
+                                               >
+                                               <span class="fa fa-fw fa-list"></span>Dependencies
+                                           </a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#additional-pages"
+                   >
+                                   <span class="fa fa-fw fa-book"></span>
+                                   <span>Additional documentation</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="additional-pages"
+                   >
+                                       <li class="link ">
+                                           <a href="./additional-documentation/introduction.html" >Introduction</a>
+                                       </li>
+                                       <li class="link ">
+                                           <a href="./additional-documentation/actions.html" >Actions</a>
+                                       </li>
+                                       <li class="link for-chapter2">
+                                           <a href="./additional-documentation/actions/creation-of-a-todo.html" >Creation of a todo</a>
+                                       </li>
+                                       <li class="link for-chapter2">
+                                           <a href="./additional-documentation/actions/edition-of-a-todo.html" >Edition of a todo</a>
+                                       </li>
+                                       <li class="link for-chapter2">
+                                           <a href="./additional-documentation/actions/delete-a-todo.html" >Delete a todo</a>
+                                       </li>
+                                       <li class="link for-chapter2">
+                                           <a href="./additional-documentation/actions/update-the-status-of-a-todo.html" >Update the status of a todo</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                           <li class="chapter">
+                               <a data-type="chapter-link" href="./modules.html" >
+                                   <div class="menu-toggler linked" data-toggle="collapse"
+                                           data-target="#modules-links"
+                                   >
+                                       <span class="fa fa-fw fa-archive"></span>
+                                       <span class="link-name">Modules</span>
+                                       <span class="fa fa-angle-down"></span>
+                                   </div>
+                               </a>
+                               <ul class="links collapse "
+                                       id="modules-links"
+                   >
+                                       <li class="link">
+                                           <a href="./modules/AboutModule.html" >AboutModule</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./modules/AboutRoutingModule.html" >AboutRoutingModule</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./modules/AppModule.html" >AppModule</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./modules/AppRoutingModule.html" >AppRoutingModule</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./modules/FooterModule.html" >FooterModule</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./modules/HeaderModule.html" >HeaderModule</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./modules/HomeModule.html" >HomeModule</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./modules/HomeRoutingModule.html" >HomeRoutingModule</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./modules/ListModule.html" >ListModule</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./modules/TodoModule.html" >TodoModule</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#components-links"
+                   >
+                                   <span class="fa fa-fw fa-cogs"></span>
+                                   <span>Components</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="components-links"
+                   >
+                                       <li class="link">
+                                           <a href="./components/AboutComponent.html" >AboutComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/AppComponent.html" >AppComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/CompodocComponent.html" >CompodocComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/FooterComponent.html" >FooterComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/HeaderComponent.html" >HeaderComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/HomeComponent.html" >HomeComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/ListComponent.html" >ListComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/TodoComponent.html" >TodoComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./components/TodoMVCComponent.html" >TodoMVCComponent</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#directives-links"
+                   >
+                                   <span class="fa fa-fw fa-code"></span>
+                                   <span>Directives</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="directives-links"
+                   >
+                                       <li class="link">
+                                           <a href="./directives/DoNothingDirective.html" >DoNothingDirective</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#classes-links"
+                   >
+                                   <span class="fa fa-fw fa-file-code-o"></span>
+                                   <span>Classes</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="classes-links"
+                   >
+                                       <li class="link">
+                                           <a href="./classes/StringIndexedItems.html" >StringIndexedItems</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./classes/Todo.html" >Todo</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#injectables-links"
+                   >
+                                   <span class="fa fa-fw fa-long-arrow-down"></span>
+                                   <span>Injectables</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="injectables-links"
+                   >
+                                       <li class="link">
+                                           <a href="./injectables/EmitterService.html" >EmitterService</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./injectables/TodoStore.html" >TodoStore</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#interceptors-links"
+                   >
+                                   <span class="fa fa-fw fa-exchange"></span>
+                                   <span>Interceptors</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="interceptors-links"
+                   >
+                                       <li class="link">
+                                           <a href="./interceptors/NoopInterceptor.html" >NoopInterceptor</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#interfaces-links"
+                   >
+                                   <span class="fa fa-fw fa-info"></span>
+                                   <span>Interfaces</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="interfaces-links"
+                   >
+                                       <li class="link">
+                                           <a href="./interfaces/ClockInterface.html" >ClockInterface</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./interfaces/InterfaceWithIndexable.html" >InterfaceWithIndexable</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./interfaces/LabelledTodo.html" >LabelledTodo</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./interfaces/SearchFunc.html" >SearchFunc</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./interfaces/StringArray.html" >StringArray</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./interfaces/TimeInterface.html" >TimeInterface</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./interfaces/superString.html" >superString</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#pipes-links"
+                   >
+                                   <span class="fa fa-fw fa-plus"></span>
+                                   <span>Pipes</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="pipes-links"
+                   >
+                                       <li class="link">
+                                           <a href="./pipes/FirstUpperPipe.html" >FirstUpperPipe</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#miscellaneous-links"
+                   >
+                                   <span class="fa fa-fw fa-cubes"></span>
+                                   <span>Miscellaneous</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="miscellaneous-links"
+                   >
+                                       <li class="link">
+                                         <a href="./miscellaneous/enumerations.html" data-type="entity-link" >Enums</a>
+                                       </li>
+                                       <li class="link">
+                                         <a href="./miscellaneous/functions.html" data-type="entity-link" >Functions</a>
+                                       </li>
+                                       <li class="link">
+                                         <a href="./miscellaneous/typealiases.html" data-type="entity-link" >Type aliases</a>
+                                       </li>
+                                       <li class="link">
+                                         <a href="./miscellaneous/variables.html" data-type="entity-link" >Variables</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                           <li class="chapter">
+                               <a data-type="chapter-link" href="./routes.html" ><span class="fa fa-fw fa-code-fork"></span>Routes</a>
+                           </li>
+                   
+                           <li class="chapter">
+                               <a data-type="chapter-link" href="./coverage.html" ><span class="fa fa-fw fa-tasks"></span>Documentation coverage</a>
+                           </li>
+                   
+                           <li class="divider"></li>
+                           <li class="copyright">
+                                   Documentation generated using <a href="https://compodoc.github.io/website/" target="_blank">
+                                               <img src="./images/compodoc-vectorise.svg" class="img-responsive">
+                                   </a>
+                           </li>
+                   
+                       </ul>
+                   
+                   </nav>
+               </div>
+               <div class="content overview">
+                   <div class="content-data">
+
+
+<ol class="breadcrumb">
+    <li>Overview</li>
+</ol>
+            <div class="text-center module-graph-container">
+                <div id="module-graph-svg">
+                    <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Generated by graphviz version 2.40.1 (20161225.0304)
+ -->
+<!-- Title: dependencies Pages: 1 -->
+<svg width="1455pt" height="512pt"
+ viewBox="0.00 0.00 1455.00 512.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 508)">
+<title>dependencies</title>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-508 1451,-508 1451,4 -4,4"/>
+<text text-anchor="start" x="702.5091" y="-42.4" font-family="sans-serif" font-weight="bold" font-size="14.00" fill="#000000">Legend</text>
+<polygon fill="#ffffb3" stroke="transparent" points="489.5,-10 489.5,-30 509.5,-30 509.5,-10 489.5,-10"/>
+<text text-anchor="start" x="513.129" y="-15.4" font-family="sans-serif" font-size="14.00" fill="#000000"> &#160;Declarations</text>
+<polygon fill="#8dd3c7" stroke="transparent" points="602.5,-10 602.5,-30 622.5,-30 622.5,-10 602.5,-10"/>
+<text text-anchor="start" x="626.2251" y="-15.4" font-family="sans-serif" font-size="14.00" fill="#000000"> &#160;Module</text>
+<polygon fill="#80b1d3" stroke="transparent" points="688.5,-10 688.5,-30 708.5,-30 708.5,-10 688.5,-10"/>
+<text text-anchor="start" x="712.2812" y="-15.4" font-family="sans-serif" font-size="14.00" fill="#000000"> &#160;Bootstrap</text>
+<polygon fill="#fdb462" stroke="transparent" points="785.5,-10 785.5,-30 805.5,-30 805.5,-10 785.5,-10"/>
+<text text-anchor="start" x="809.1732" y="-15.4" font-family="sans-serif" font-size="14.00" fill="#000000"> &#160;Providers</text>
+<polygon fill="#fb8072" stroke="transparent" points="881.5,-10 881.5,-30 901.5,-30 901.5,-10 881.5,-10"/>
+<text text-anchor="start" x="905.2258" y="-15.4" font-family="sans-serif" font-size="14.00" fill="#000000"> &#160;Exports</text>
+<g id="clust1" class="cluster">
+<title>cluster_AboutModule</title>
+<polygon fill="none" stroke="#000000" stroke-dasharray="1,5" points="89,-146 89,-282 401,-282 401,-146 89,-146"/>
+</g>
+<g id="clust2" class="cluster">
+<title>cluster_AboutModule_declarations</title>
+<polygon fill="none" stroke="#000000" points="261,-154 261,-206 393,-206 393,-154 261,-154"/>
+</g>
+<g id="clust4" class="cluster">
+<title>cluster_AboutModule_imports</title>
+<polygon fill="none" stroke="#000000" points="97,-154 97,-206 253,-206 253,-154 97,-154"/>
+</g>
+<g id="clust8" class="cluster">
+<title>cluster_AboutRoutingModule</title>
+<polygon fill="none" stroke="#000000" stroke-dasharray="1,5" points="8,-70 8,-138 343,-138 343,-70 8,-70"/>
+</g>
+<g id="clust9" class="cluster">
+<title>cluster_AboutRoutingModule_declarations</title>
+<polygon fill="none" stroke="#000000" points="16,-78 16,-130 335,-130 335,-78 16,-78"/>
+</g>
+<g id="clust16" class="cluster">
+<title>cluster_AppModule</title>
+<polygon fill="none" stroke="#000000" stroke-dasharray="1,5" points="571,-298 571,-496 1269,-496 1269,-298 571,-298"/>
+</g>
+<g id="clust17" class="cluster">
+<title>cluster_AppModule_declarations</title>
+<polygon fill="none" stroke="#000000" points="1139,-306 1139,-358 1261,-358 1261,-306 1139,-306"/>
+</g>
+<g id="clust19" class="cluster">
+<title>cluster_AppModule_imports</title>
+<polygon fill="none" stroke="#000000" points="875,-306 875,-358 1131,-358 1131,-306 875,-306"/>
+</g>
+<g id="clust21" class="cluster">
+<title>cluster_AppModule_bootstrap</title>
+<polygon fill="none" stroke="#000000" points="885,-436 885,-488 1009,-488 1009,-436 885,-436"/>
+</g>
+<g id="clust22" class="cluster">
+<title>cluster_AppModule_providers</title>
+<polygon fill="none" stroke="#000000" points="579,-306 579,-358 867,-358 867,-306 579,-306"/>
+</g>
+<g id="clust29" class="cluster">
+<title>cluster_FooterModule</title>
+<polygon fill="none" stroke="#000000" stroke-dasharray="1,5" points="409,-146 409,-366 563,-366 563,-146 409,-146"/>
+</g>
+<g id="clust30" class="cluster">
+<title>cluster_FooterModule_declarations</title>
+<polygon fill="none" stroke="#000000" points="420,-154 420,-206 554,-206 554,-154 420,-154"/>
+</g>
+<g id="clust33" class="cluster">
+<title>cluster_FooterModule_exports</title>
+<polygon fill="none" stroke="#000000" points="417,-306 417,-358 555,-358 555,-306 417,-306"/>
+</g>
+<g id="clust36" class="cluster">
+<title>cluster_HeaderModule</title>
+<polygon fill="none" stroke="#000000" stroke-dasharray="1,5" points="1281,-146 1281,-366 1439,-366 1439,-146 1281,-146"/>
+</g>
+<g id="clust37" class="cluster">
+<title>cluster_HeaderModule_declarations</title>
+<polygon fill="none" stroke="#000000" points="1290,-154 1290,-206 1428,-206 1428,-154 1290,-154"/>
+</g>
+<g id="clust40" class="cluster">
+<title>cluster_HeaderModule_exports</title>
+<polygon fill="none" stroke="#000000" points="1289,-306 1289,-358 1431,-358 1431,-306 1289,-306"/>
+</g>
+<g id="clust43" class="cluster">
+<title>cluster_HomeModule</title>
+<polygon fill="none" stroke="#000000" stroke-dasharray="1,5" points="719,-222 719,-290 1273,-290 1273,-222 719,-222"/>
+</g>
+<g id="clust44" class="cluster">
+<title>cluster_HomeModule_declarations</title>
+<polygon fill="none" stroke="#000000" points="1133,-230 1133,-282 1265,-282 1265,-230 1133,-230"/>
+</g>
+<g id="clust46" class="cluster">
+<title>cluster_HomeModule_imports</title>
+<polygon fill="none" stroke="#000000" points="871,-230 871,-282 1125,-282 1125,-230 871,-230"/>
+</g>
+<g id="clust47" class="cluster">
+<title>cluster_HomeModule_exports</title>
+<polygon fill="none" stroke="#000000" points="727,-230 727,-282 863,-282 863,-230 727,-230"/>
+</g>
+<g id="clust56" class="cluster">
+<title>cluster_ListModule</title>
+<polygon fill="none" stroke="#000000" stroke-dasharray="1,5" points="885,-146 885,-214 1265,-214 1265,-146 885,-146"/>
+</g>
+<g id="clust57" class="cluster">
+<title>cluster_ListModule_declarations</title>
+<polygon fill="none" stroke="#000000" points="1137,-154 1137,-206 1257,-206 1257,-154 1137,-154"/>
+</g>
+<g id="clust59" class="cluster">
+<title>cluster_ListModule_imports</title>
+<polygon fill="none" stroke="#000000" points="1023,-154 1023,-206 1129,-206 1129,-154 1023,-154"/>
+</g>
+<g id="clust60" class="cluster">
+<title>cluster_ListModule_exports</title>
+<polygon fill="none" stroke="#000000" points="893,-154 893,-206 1015,-206 1015,-154 893,-154"/>
+</g>
+<g id="clust63" class="cluster">
+<title>cluster_TodoModule</title>
+<polygon fill="none" stroke="#000000" stroke-dasharray="1,5" points="789,-70 789,-138 1338,-138 1338,-70 789,-70"/>
+</g>
+<g id="clust64" class="cluster">
+<title>cluster_TodoModule_declarations</title>
+<polygon fill="none" stroke="#000000" points="935,-78 935,-130 1330,-130 1330,-78 935,-78"/>
+</g>
+<g id="clust69" class="cluster">
+<title>cluster_TodoModule_exports</title>
+<polygon fill="none" stroke="#000000" points="797,-78 797,-130 927,-130 927,-78 797,-78"/>
+</g>
+<!-- AboutComponent -->
+<g id="node1" class="node">
+<title>AboutComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="385.3301,-198 268.6699,-198 268.6699,-162 385.3301,-162 385.3301,-198"/>
+<text text-anchor="middle" x="327" y="-175.8" font-family="Times,serif" font-size="14.00" fill="#000000">AboutComponent</text>
+</g>
+<!-- AboutModule -->
+<g id="node2" class="node">
+<title>AboutModule</title>
+<polygon fill="#8dd3c7" stroke="#000000" points="298.0481,-274 295.0481,-278 274.0481,-278 271.0481,-274 203.9519,-274 203.9519,-238 298.0481,-238 298.0481,-274"/>
+<text text-anchor="middle" x="251" y="-251.8" font-family="Times,serif" font-size="14.00" fill="#000000">AboutModule</text>
+</g>
+<!-- AboutComponent&#45;&gt;AboutModule -->
+<g id="edge1" class="edge">
+<title>AboutComponent&#45;&gt;AboutModule</title>
+<path fill="none" stroke="#000000" d="M283.5544,-198.0109C283.5544,-198.0109 283.5544,-227.855 283.5544,-227.855"/>
+<polygon fill="#000000" stroke="#000000" points="280.0544,-227.8549 283.5544,-237.855 287.0544,-227.855 280.0544,-227.8549"/>
+</g>
+<!-- AboutRoutingModule -->
+<g id="node3" class="node">
+<title>AboutRoutingModule</title>
+<polygon fill="#8dd3c7" stroke="#000000" points="244.6652,-198 241.6652,-202 220.6652,-202 217.6652,-198 105.3348,-198 105.3348,-162 244.6652,-162 244.6652,-198"/>
+<text text-anchor="middle" x="175" y="-175.8" font-family="Times,serif" font-size="14.00" fill="#000000">AboutRoutingModule</text>
+</g>
+<!-- AboutRoutingModule&#45;&gt;AboutModule -->
+<g id="edge2" class="edge">
+<title>AboutRoutingModule&#45;&gt;AboutModule</title>
+<path fill="none" stroke="#000000" d="M224.2795,-198.0109C224.2795,-198.0109 224.2795,-227.855 224.2795,-227.855"/>
+<polygon fill="#000000" stroke="#000000" points="220.7795,-227.8549 224.2795,-237.855 227.7795,-227.855 220.7795,-227.8549"/>
+</g>
+<!-- TodoMVCComponent -->
+<g id="node4" class="node">
+<title>TodoMVCComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="327.273,-122 184.727,-122 184.727,-86 327.273,-86 327.273,-122"/>
+<text text-anchor="middle" x="256" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">TodoMVCComponent</text>
+</g>
+<!-- TodoMVCComponent&#45;&gt;AboutRoutingModule -->
+<g id="edge3" class="edge">
+<title>TodoMVCComponent&#45;&gt;AboutRoutingModule</title>
+<path fill="none" stroke="#000000" d="M214.723,-122.0109C214.723,-122.0109 214.723,-151.855 214.723,-151.855"/>
+<polygon fill="#000000" stroke="#000000" points="211.2231,-151.8549 214.723,-161.855 218.2231,-151.855 211.2231,-151.8549"/>
+</g>
+<!-- CompodocComponent -->
+<g id="node5" class="node">
+<title>CompodocComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="166.2744,-122 23.7256,-122 23.7256,-86 166.2744,-86 166.2744,-122"/>
+<text text-anchor="middle" x="95" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">CompodocComponent</text>
+</g>
+<!-- CompodocComponent&#45;&gt;AboutRoutingModule -->
+<g id="edge4" class="edge">
+<title>CompodocComponent&#45;&gt;AboutRoutingModule</title>
+<path fill="none" stroke="#000000" d="M135.7774,-122.0109C135.7774,-122.0109 135.7774,-151.855 135.7774,-151.855"/>
+<polygon fill="#000000" stroke="#000000" points="132.2774,-151.8549 135.7774,-161.855 139.2774,-151.855 132.2774,-151.8549"/>
+</g>
+<!-- AppComponent -->
+<g id="node6" class="node">
+<title>AppComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="1252.9399,-350 1147.0601,-350 1147.0601,-314 1252.9399,-314 1252.9399,-350"/>
+<text text-anchor="middle" x="1200" y="-327.8" font-family="Times,serif" font-size="14.00" fill="#000000">AppComponent</text>
+</g>
+<!-- AppModule -->
+<g id="node7" class="node">
+<title>AppModule</title>
+<polygon fill="#8dd3c7" stroke="#000000" points="988.6571,-415 985.6571,-419 964.6571,-419 961.6571,-415 905.3429,-415 905.3429,-379 988.6571,-379 988.6571,-415"/>
+<text text-anchor="middle" x="947" y="-392.8" font-family="Times,serif" font-size="14.00" fill="#000000">AppModule</text>
+</g>
+<!-- AppComponent&#45;&gt;AppModule -->
+<g id="edge5" class="edge">
+<title>AppComponent&#45;&gt;AppModule</title>
+<path fill="none" stroke="#000000" d="M1200,-350.2843C1200,-371.3211 1200,-403 1200,-403 1200,-403 998.7778,-403 998.7778,-403"/>
+<polygon fill="#000000" stroke="#000000" points="998.7778,-399.5001 988.7778,-403 998.7778,-406.5001 998.7778,-399.5001"/>
+</g>
+<!-- AppComponent  -->
+<g id="node10" class="node">
+<title>AppComponent </title>
+<polygon fill="#80b1d3" stroke="#000000" points="1001.439,-480 892.561,-480 892.561,-444 1001.439,-444 1001.439,-480"/>
+<text text-anchor="middle" x="947" y="-457.8" font-family="Times,serif" font-size="14.00" fill="#000000">AppComponent </text>
+</g>
+<!-- AppModule&#45;&gt;AppComponent  -->
+<g id="edge8" class="edge">
+<title>AppModule&#45;&gt;AppComponent </title>
+<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M947,-415.1061C947,-415.1061 947,-433.991 947,-433.991"/>
+<polygon fill="#000000" stroke="#000000" points="943.5001,-433.9909 947,-443.991 950.5001,-433.991 943.5001,-433.9909"/>
+</g>
+<!-- HomeModule -->
+<g id="node8" class="node">
+<title>HomeModule</title>
+<polygon fill="#8dd3c7" stroke="#000000" points="1122.7619,-350 1119.7619,-354 1098.7619,-354 1095.7619,-350 1029.2381,-350 1029.2381,-314 1122.7619,-314 1122.7619,-350"/>
+<text text-anchor="middle" x="1076" y="-327.8" font-family="Times,serif" font-size="14.00" fill="#000000">HomeModule</text>
+</g>
+<!-- HomeModule&#45;&gt;AppModule -->
+<g id="edge6" class="edge">
+<title>HomeModule&#45;&gt;AppModule</title>
+<path fill="none" stroke="#000000" d="M1076,-350.0225C1076,-367.3734 1076,-391 1076,-391 1076,-391 998.8826,-391 998.8826,-391"/>
+<polygon fill="#000000" stroke="#000000" points="998.8826,-387.5001 988.8826,-391 998.8826,-394.5001 998.8826,-387.5001"/>
+</g>
+<!-- HomeComponent  -->
+<g id="node22" class="node">
+<title>HomeComponent </title>
+<polygon fill="#fb8072" stroke="#000000" points="854.5442,-274 735.4558,-274 735.4558,-238 854.5442,-238 854.5442,-274"/>
+<text text-anchor="middle" x="795" y="-251.8" font-family="Times,serif" font-size="14.00" fill="#000000">HomeComponent </text>
+</g>
+<!-- HomeModule&#45;&gt;HomeComponent  -->
+<g id="edge20" class="edge">
+<title>HomeModule&#45;&gt;HomeComponent </title>
+<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M1067.8672,-313.8903C1067.8672,-304.103 1067.8672,-294 1067.8672,-294 1067.8672,-294 804.8594,-294 804.8594,-294 804.8594,-294 804.8594,-284.1097 804.8594,-284.1097"/>
+<polygon fill="#000000" stroke="#000000" points="808.3595,-284.1096 804.8594,-274.1097 801.3595,-284.1097 808.3595,-284.1096"/>
+</g>
+<!-- AppRoutingModule -->
+<g id="node9" class="node">
+<title>AppRoutingModule</title>
+<polygon fill="#8dd3c7" stroke="#000000" points="1011.2744,-350 1008.2744,-354 987.2744,-354 984.2744,-350 882.7256,-350 882.7256,-314 1011.2744,-314 1011.2744,-350"/>
+<text text-anchor="middle" x="947" y="-327.8" font-family="Times,serif" font-size="14.00" fill="#000000">AppRoutingModule</text>
+</g>
+<!-- AppRoutingModule&#45;&gt;AppModule -->
+<g id="edge7" class="edge">
+<title>AppRoutingModule&#45;&gt;AppModule</title>
+<path fill="none" stroke="#000000" d="M947,-350.1061C947,-350.1061 947,-368.991 947,-368.991"/>
+<polygon fill="#000000" stroke="#000000" points="943.5001,-368.9909 947,-378.991 950.5001,-368.991 943.5001,-368.9909"/>
+</g>
+<!-- TodoStore -->
+<g id="node11" class="node">
+<title>TodoStore</title>
+<ellipse fill="#fdb462" stroke="#000000" cx="807" cy="-332" rx="51.6073" ry="18"/>
+<text text-anchor="middle" x="807" y="-327.8" font-family="Times,serif" font-size="14.00" fill="#000000">TodoStore</text>
+</g>
+<!-- TodoStore&#45;&gt;AppModule -->
+<g id="edge9" class="edge">
+<title>TodoStore&#45;&gt;AppModule</title>
+<path fill="none" stroke="#000000" d="M807,-350.0225C807,-367.3734 807,-391 807,-391 807,-391 894.9954,-391 894.9954,-391"/>
+<polygon fill="#000000" stroke="#000000" points="894.9954,-394.5001 904.9954,-391 894.9953,-387.5001 894.9954,-394.5001"/>
+</g>
+<!-- NoopInterceptor -->
+<g id="node12" class="node">
+<title>NoopInterceptor</title>
+<ellipse fill="#fdb462" stroke="#000000" cx="662" cy="-332" rx="74.7014" ry="18"/>
+<text text-anchor="middle" x="662" y="-327.8" font-family="Times,serif" font-size="14.00" fill="#000000">NoopInterceptor</text>
+</g>
+<!-- NoopInterceptor&#45;&gt;AppModule -->
+<g id="edge10" class="edge">
+<title>NoopInterceptor&#45;&gt;AppModule</title>
+<path fill="none" stroke="#000000" d="M662,-350.2843C662,-371.3211 662,-403 662,-403 662,-403 895.2533,-403 895.2533,-403"/>
+<polygon fill="#000000" stroke="#000000" points="895.2534,-406.5001 905.2533,-403 895.2533,-399.5001 895.2534,-406.5001"/>
+</g>
+<!-- FooterComponent -->
+<g id="node13" class="node">
+<title>FooterComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="545.8809,-198 428.1191,-198 428.1191,-162 545.8809,-162 545.8809,-198"/>
+<text text-anchor="middle" x="487" y="-175.8" font-family="Times,serif" font-size="14.00" fill="#000000">FooterComponent</text>
+</g>
+<!-- FooterModule -->
+<g id="node14" class="node">
+<title>FooterModule</title>
+<polygon fill="#8dd3c7" stroke="#000000" points="535.0983,-274 532.0983,-278 511.0983,-278 508.0983,-274 438.9017,-274 438.9017,-238 535.0983,-238 535.0983,-274"/>
+<text text-anchor="middle" x="487" y="-251.8" font-family="Times,serif" font-size="14.00" fill="#000000">FooterModule</text>
+</g>
+<!-- FooterComponent&#45;&gt;FooterModule -->
+<g id="edge11" class="edge">
+<title>FooterComponent&#45;&gt;FooterModule</title>
+<path fill="none" stroke="#000000" d="M487,-198.0109C487,-198.0109 487,-227.855 487,-227.855"/>
+<polygon fill="#000000" stroke="#000000" points="483.5001,-227.8549 487,-237.855 490.5001,-227.855 483.5001,-227.8549"/>
+</g>
+<!-- FooterModule&#45;&gt;HomeModule -->
+<g id="edge18" class="edge">
+<title>FooterModule&#45;&gt;HomeModule</title>
+<path fill="none" stroke="#000000" d="M503.0164,-274.1467C503.0164,-287.7395 503.0164,-304 503.0164,-304 503.0164,-304 1051.6015,-304 1051.6015,-304 1051.6015,-304 1051.6015,-304.9793 1051.6015,-304.9793"/>
+<polygon fill="#000000" stroke="#000000" points="1048.1017,-303.793 1051.6015,-313.793 1055.1017,-303.7931 1048.1017,-303.793"/>
+</g>
+<!-- FooterComponent  -->
+<g id="node15" class="node">
+<title>FooterComponent </title>
+<polygon fill="#fb8072" stroke="#000000" points="546.8814,-350 425.1186,-350 425.1186,-314 546.8814,-314 546.8814,-350"/>
+<text text-anchor="middle" x="486" y="-327.8" font-family="Times,serif" font-size="14.00" fill="#000000">FooterComponent </text>
+</g>
+<!-- FooterModule&#45;&gt;FooterComponent  -->
+<g id="edge12" class="edge">
+<title>FooterModule&#45;&gt;FooterComponent </title>
+<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M470.9836,-274.0109C470.9836,-274.0109 470.9836,-303.855 470.9836,-303.855"/>
+<polygon fill="#000000" stroke="#000000" points="467.4837,-303.8549 470.9836,-313.855 474.4837,-303.855 467.4837,-303.8549"/>
+</g>
+<!-- HeaderComponent -->
+<g id="node16" class="node">
+<title>HeaderComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="1419.7437,-198 1298.2563,-198 1298.2563,-162 1419.7437,-162 1419.7437,-198"/>
+<text text-anchor="middle" x="1359" y="-175.8" font-family="Times,serif" font-size="14.00" fill="#000000">HeaderComponent</text>
+</g>
+<!-- HeaderModule -->
+<g id="node17" class="node">
+<title>HeaderModule</title>
+<polygon fill="#8dd3c7" stroke="#000000" points="1408.9608,-274 1405.9608,-278 1384.9608,-278 1381.9608,-274 1309.0392,-274 1309.0392,-238 1408.9608,-238 1408.9608,-274"/>
+<text text-anchor="middle" x="1359" y="-251.8" font-family="Times,serif" font-size="14.00" fill="#000000">HeaderModule</text>
+</g>
+<!-- HeaderComponent&#45;&gt;HeaderModule -->
+<g id="edge13" class="edge">
+<title>HeaderComponent&#45;&gt;HeaderModule</title>
+<path fill="none" stroke="#000000" d="M1359,-198.0109C1359,-198.0109 1359,-227.855 1359,-227.855"/>
+<polygon fill="#000000" stroke="#000000" points="1355.5001,-227.8549 1359,-237.855 1362.5001,-227.855 1355.5001,-227.8549"/>
+</g>
+<!-- HeaderModule&#45;&gt;HomeModule -->
+<g id="edge16" class="edge">
+<title>HeaderModule&#45;&gt;HomeModule</title>
+<path fill="none" stroke="#000000" d="M1342.3399,-274.207C1342.3399,-279.5549 1342.3399,-284 1342.3399,-284 1342.3399,-284 1100.3985,-284 1100.3985,-284 1100.3985,-284 1100.3985,-303.8533 1100.3985,-303.8533"/>
+<polygon fill="#000000" stroke="#000000" points="1096.8986,-303.8532 1100.3985,-313.8533 1103.8986,-303.8533 1096.8986,-303.8532"/>
+</g>
+<!-- HeaderComponent  -->
+<g id="node18" class="node">
+<title>HeaderComponent </title>
+<polygon fill="#fb8072" stroke="#000000" points="1422.7436,-350 1297.2564,-350 1297.2564,-314 1422.7436,-314 1422.7436,-350"/>
+<text text-anchor="middle" x="1360" y="-327.8" font-family="Times,serif" font-size="14.00" fill="#000000">HeaderComponent </text>
+</g>
+<!-- HeaderModule&#45;&gt;HeaderComponent  -->
+<g id="edge14" class="edge">
+<title>HeaderModule&#45;&gt;HeaderComponent </title>
+<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M1375.6601,-274.0109C1375.6601,-274.0109 1375.6601,-303.855 1375.6601,-303.855"/>
+<polygon fill="#000000" stroke="#000000" points="1372.1602,-303.8549 1375.6601,-313.855 1379.1602,-303.855 1372.1602,-303.8549"/>
+</g>
+<!-- HomeComponent -->
+<g id="node19" class="node">
+<title>HomeComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="1256.5451,-274 1141.4549,-274 1141.4549,-238 1256.5451,-238 1256.5451,-274"/>
+<text text-anchor="middle" x="1199" y="-251.8" font-family="Times,serif" font-size="14.00" fill="#000000">HomeComponent</text>
+</g>
+<!-- HomeComponent&#45;&gt;HomeModule -->
+<g id="edge15" class="edge">
+<title>HomeComponent&#45;&gt;HomeModule</title>
+<path fill="none" stroke="#000000" d="M1141.0081,-262C1137.3583,-262 1135.1122,-262 1135.1122,-262 1135.1122,-262 1135.1122,-332 1135.1122,-332 1135.1122,-332 1132.8641,-332 1132.8641,-332"/>
+<polygon fill="#000000" stroke="#000000" points="1132.8641,-328.5001 1122.8641,-332 1132.8641,-335.5001 1132.8641,-328.5001"/>
+</g>
+<!-- ListModule -->
+<g id="node20" class="node">
+<title>ListModule</title>
+<polygon fill="#8dd3c7" stroke="#000000" points="1116.8289,-274 1113.8289,-278 1092.8289,-278 1089.8289,-274 1035.1711,-274 1035.1711,-238 1116.8289,-238 1116.8289,-274"/>
+<text text-anchor="middle" x="1076" y="-251.8" font-family="Times,serif" font-size="14.00" fill="#000000">ListModule</text>
+</g>
+<!-- ListModule&#45;&gt;HomeModule -->
+<g id="edge17" class="edge">
+<title>ListModule&#45;&gt;HomeModule</title>
+<path fill="none" stroke="#000000" d="M1084.1328,-274.0109C1084.1328,-274.0109 1084.1328,-303.855 1084.1328,-303.855"/>
+<polygon fill="#000000" stroke="#000000" points="1080.6329,-303.8549 1084.1328,-313.855 1087.6329,-303.855 1080.6329,-303.8549"/>
+</g>
+<!-- ListComponent  -->
+<g id="node25" class="node">
+<title>ListComponent </title>
+<polygon fill="#fb8072" stroke="#000000" points="1007.1115,-198 900.8885,-198 900.8885,-162 1007.1115,-162 1007.1115,-198"/>
+<text text-anchor="middle" x="954" y="-175.8" font-family="Times,serif" font-size="14.00" fill="#000000">ListComponent </text>
+</g>
+<!-- ListModule&#45;&gt;ListComponent  -->
+<g id="edge23" class="edge">
+<title>ListModule&#45;&gt;ListComponent </title>
+<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M1035.0158,-250C1029.2423,-250 1025.226,-250 1025.226,-250 1025.226,-250 1025.226,-180 1025.226,-180 1025.226,-180 1017.2527,-180 1017.2527,-180"/>
+<polygon fill="#000000" stroke="#000000" points="1017.2527,-176.5001 1007.2527,-180 1017.2527,-183.5001 1017.2527,-176.5001"/>
+</g>
+<!-- HomeRoutingModule -->
+<g id="node21" class="node">
+<title>HomeRoutingModule</title>
+<polygon fill="#8dd3c7" stroke="#000000" points="1017.3795,-274 1014.3795,-278 993.3795,-278 990.3795,-274 878.6205,-274 878.6205,-238 1017.3795,-238 1017.3795,-274"/>
+<text text-anchor="middle" x="948" y="-251.8" font-family="Times,serif" font-size="14.00" fill="#000000">HomeRoutingModule</text>
+</g>
+<!-- HomeRoutingModule&#45;&gt;HomeModule -->
+<g id="edge19" class="edge">
+<title>HomeRoutingModule&#45;&gt;HomeModule</title>
+<path fill="none" stroke="#000000" d="M1017.3902,-262C1019.8827,-262 1021.3329,-262 1021.3329,-262 1021.3329,-262 1021.3329,-332 1021.3329,-332 1021.3329,-332 1022.093,-332 1022.093,-332"/>
+<polygon fill="#000000" stroke="#000000" points="1018.9341,-335.5001 1028.9341,-332 1018.934,-328.5001 1018.9341,-335.5001"/>
+</g>
+<!-- ListComponent -->
+<g id="node23" class="node">
+<title>ListComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="1248.6109,-198 1145.3891,-198 1145.3891,-162 1248.6109,-162 1248.6109,-198"/>
+<text text-anchor="middle" x="1197" y="-175.8" font-family="Times,serif" font-size="14.00" fill="#000000">ListComponent</text>
+</g>
+<!-- ListComponent&#45;&gt;ListModule -->
+<g id="edge21" class="edge">
+<title>ListComponent&#45;&gt;ListModule</title>
+<path fill="none" stroke="#000000" d="M1145.1124,-180C1135.8045,-180 1128.9965,-180 1128.9965,-180 1128.9965,-180 1128.9965,-250 1128.9965,-250 1128.9965,-250 1126.7048,-250 1126.7048,-250"/>
+<polygon fill="#000000" stroke="#000000" points="1126.7049,-246.5001 1116.7048,-250 1126.7048,-253.5001 1126.7049,-246.5001"/>
+</g>
+<!-- TodoModule -->
+<g id="node24" class="node">
+<title>TodoModule</title>
+<polygon fill="#8dd3c7" stroke="#000000" points="1120.6025,-198 1117.6025,-202 1096.6025,-202 1093.6025,-198 1031.3975,-198 1031.3975,-162 1120.6025,-162 1120.6025,-198"/>
+<text text-anchor="middle" x="1076" y="-175.8" font-family="Times,serif" font-size="14.00" fill="#000000">TodoModule</text>
+</g>
+<!-- TodoModule&#45;&gt;ListModule -->
+<g id="edge22" class="edge">
+<title>TodoModule&#45;&gt;ListModule</title>
+<path fill="none" stroke="#000000" d="M1076,-198.0109C1076,-198.0109 1076,-227.855 1076,-227.855"/>
+<polygon fill="#000000" stroke="#000000" points="1072.5001,-227.8549 1076,-237.855 1079.5001,-227.855 1072.5001,-227.8549"/>
+</g>
+<!-- TodoComponent  -->
+<g id="node29" class="node">
+<title>TodoComponent </title>
+<polygon fill="#fb8072" stroke="#000000" points="919.3857,-122 804.6143,-122 804.6143,-86 919.3857,-86 919.3857,-122"/>
+<text text-anchor="middle" x="862" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">TodoComponent </text>
+</g>
+<!-- TodoModule&#45;&gt;TodoComponent  -->
+<g id="edge27" class="edge">
+<title>TodoModule&#45;&gt;TodoComponent </title>
+<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M1045.8121,-161.8495C1045.8121,-149.7292 1045.8121,-136 1045.8121,-136 1045.8121,-136 909.9436,-136 909.9436,-136 909.9436,-136 909.9436,-132.2434 909.9436,-132.2434"/>
+<polygon fill="#000000" stroke="#000000" points="913.4436,-132.2434 909.9436,-122.2434 906.4436,-132.2434 913.4436,-132.2434"/>
+</g>
+<!-- TodoComponent -->
+<g id="node26" class="node">
+<title>TodoComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="1322.3851,-122 1211.6149,-122 1211.6149,-86 1322.3851,-86 1322.3851,-122"/>
+<text text-anchor="middle" x="1267" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">TodoComponent</text>
+</g>
+<!-- TodoComponent&#45;&gt;TodoModule -->
+<g id="edge24" class="edge">
+<title>TodoComponent&#45;&gt;TodoModule</title>
+<path fill="none" stroke="#000000" d="M1230.0565,-122.0439C1230.0565,-134.5633 1230.0565,-149 1230.0565,-149 1230.0565,-149 1111.111,-149 1111.111,-149 1111.111,-149 1111.111,-151.9672 1111.111,-151.9672"/>
+<polygon fill="#000000" stroke="#000000" points="1107.6111,-151.9671 1111.111,-161.9672 1114.6111,-151.9672 1107.6111,-151.9671"/>
+</g>
+<!-- FirstUpperPipe -->
+<g id="node27" class="node">
+<title>FirstUpperPipe</title>
+<polygon fill="#ffffb3" stroke="#000000" points="1193.5396,-122 1092.4604,-122 1092.4604,-86 1193.5396,-86 1193.5396,-122"/>
+<text text-anchor="middle" x="1143" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">FirstUpperPipe</text>
+</g>
+<!-- FirstUpperPipe&#45;&gt;TodoModule -->
+<g id="edge25" class="edge">
+<title>FirstUpperPipe&#45;&gt;TodoModule</title>
+<path fill="none" stroke="#000000" d="M1101.6709,-122.0109C1101.6709,-122.0109 1101.6709,-151.855 1101.6709,-151.855"/>
+<polygon fill="#000000" stroke="#000000" points="1098.171,-151.8549 1101.6709,-161.855 1105.171,-151.855 1098.171,-151.8549"/>
+</g>
+<!-- DoNothingDirective -->
+<g id="node28" class="node">
+<title>DoNothingDirective</title>
+<polygon fill="#ffffb3" stroke="#000000" points="1074.5772,-122 943.4228,-122 943.4228,-86 1074.5772,-86 1074.5772,-122"/>
+<text text-anchor="middle" x="1009" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">DoNothingDirective</text>
+</g>
+<!-- DoNothingDirective&#45;&gt;TodoModule -->
+<g id="edge26" class="edge">
+<title>DoNothingDirective&#45;&gt;TodoModule</title>
+<path fill="none" stroke="#000000" d="M1060.1753,-122.0109C1060.1753,-122.0109 1060.1753,-151.855 1060.1753,-151.855"/>
+<polygon fill="#000000" stroke="#000000" points="1056.6754,-151.8549 1060.1753,-161.855 1063.6754,-151.855 1056.6754,-151.8549"/>
+</g>
+</g>
+</svg>
+
+                </div>
+                <i id="fullscreen" class="fa fa-expand module-graph-fullscreen-btn" aria-hidden="true"></i>
+                <div class="btn-group">
+                    <button id="zoom-in" class="btn btn-default btn-sm">Zoom in</button>
+                    <button id="reset" class="btn btn-default btn-sm">Reset</button>
+                    <button id="zoom-out" class="btn btn-default btn-sm">Zoom out</button>
+                </div>
+            </div>
+<div class="container-fluid overview">
+    <div class="row">
+            <div class="col-sm-3">
+                <div class="card text-center">
+                    <div class="card-block">
+                        <h4 class="card-title"><span class="fa fa-archive"></span></h4>
+                        <p class="card-text">
+                            <a href="./modules.html">10 modules</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card text-center">
+                    <div class="card-block">
+                        <h4 class="card-title"><span class="fa fa-cogs"></span></h4>
+                        <p class="card-text">9 components</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card text-center">
+                    <div class="card-block">
+                        <h4 class="card-title"><span class="fa fa-code"></span></h4>
+                        <p class="card-text">1 directive</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card text-center">
+                    <div class="card-block">
+                        <h4 class="card-title"><span class="fa fa-code-fork"></span></h4>
+                        <p class="card-text">2 injectables</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card text-center">
+                    <div class="card-block">
+                        <h4 class="card-title"><span class="fa fa-plus"></span></h4>
+                        <p class="card-text">1 pipe</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card text-center">
+                    <div class="card-block">
+                        <h4 class="card-title"><span class="fa fa-file-code-o"></span></h4>
+                        <p class="card-text">2 classes</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card text-center">
+                    <div class="card-block">
+                        <h4 class="card-title"><span class="fa fa-info"></span></h4>
+                        <p class="card-text">7 interfaces</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card text-center">
+                    <div class="card-block">
+                        <h4 class="card-title"><span class="fa fa-code-fork"></span></h4>
+                        <p class="card-text">
+                            <a href="./routes.html">12 routes</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+    </div>
+</div>
+<script src="js/libs/svg-pan-zoom.min.js"></script>
+<script src="js/svg-pan-zoom.controls.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+           </div>
+       </div>
+
+       <script src="./js/libs/bootstrap-native.js"></script>
+
+       <script src="./js/libs/es6-shim.min.js"></script>
+       <script src="./js/libs/EventDispatcher.js"></script>
+       <script src="./js/libs/promise.min.js"></script>
+       <script src="./js/libs/zepto.min.js"></script>
+
+       <script src="./js/compodoc.js"></script>
+
+       <script>var COMPODOC_CURRENT_PAGE_DEPTH = 0;</script>
+
+       <script src="./js/search/search.js"></script>
+       <script src="./js/search/lunr.min.js"></script>
+       <script src="./js/search/search-lunr.js"></script>
+
+       <script src="./js/tabs.js"></script>
+       <script src="./js/menu.js"></script>
+       <script src="./js/libs/prism.js"></script>
+       <script src="./js/sourceCode.js"></script>
+       <script src="./js/search/search_index.js"></script>
+
+
+    </body>
+</html>
